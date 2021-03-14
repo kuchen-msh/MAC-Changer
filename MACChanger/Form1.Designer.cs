@@ -1,4 +1,4 @@
-﻿namespace MACChanger
+namespace MACChanger
 {
     partial class Form1
     {
@@ -167,7 +167,6 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "MACChanger";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
