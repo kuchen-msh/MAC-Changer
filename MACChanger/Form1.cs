@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using pUnknownC;
 using System.Windows.Forms;
 using Microsoft.Win32;
@@ -35,11 +35,6 @@ namespace MACChanger
         RegistryKey r;
         string key = String.Empty;
         string[] result = new String[20];
-        
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void cMAC_Click(object sender, EventArgs e)
         {
@@ -215,14 +210,7 @@ namespace MACChanger
             Application.Exit();
         }
 
-       
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
+       private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
